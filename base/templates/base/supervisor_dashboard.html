@@ -1,0 +1,194 @@
+<section class="p-6 md:p-8 space-y-8">
+  <!-- Cabecera Dinámica con Acción CRUD -->
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+    <div class="space-y-1">
+      <h2
+        class="text-2xl font-black text-black tracking-tight flex items-center gap-2"
+      >
+        Mi Equipo de Ventas
+        <span class="h-2 w-2 rounded-full bg-cyan-500 animate-pulse"></span>
+      </h2>
+      <p class="text-sm text-gray-500 font-medium">
+        Supervisión de actividad y métricas de rendimiento
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-4">
+      <div
+        class="flex items-center gap-3 bg-gray-50 px-5 py-3 rounded-2xl border border-gray-100"
+      >
+        <span class="text-2xl font-black text-black"
+          >{{ vendedores.count }}</span
+        >
+        <span
+          class="text-[10px] uppercase tracking-widest font-bold text-gray-400 leading-tight"
+        >
+          Vendedores<br />Activos
+        </span>
+      </div>
+
+      <a
+        href="{% url 'users:user_create' %}"
+        class="group inline-flex items-center gap-3 px-6 py-4 bg-black text-white rounded-2xl hover:bg-cyan-600 transition-all duration-300 shadow-xl shadow-cyan-100 active:scale-95"
+      >
+        <div
+          class="bg-white/10 p-1 rounded-lg group-hover:bg-white/20 transition-colors"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="width: 16px; height: 16px"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="3"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+        </div>
+        <span class="text-[10px] uppercase tracking-[0.2em] font-black"
+          >Registrar Vendedor</span
+        >
+      </a>
+    </div>
+  </div>
+
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-separate border-spacing-y-3">
+      <thead>
+        <tr
+          class="text-[10px] uppercase tracking-[0.2em] text-gray-400 font-black"
+        >
+          <th class="px-6 pb-2">Vendedor/a</th>
+          <th class="px-6 pb-2">Último Acceso</th>
+          <th class="px-6 pb-2 text-center">Acciones</th>
+          <th class="px-6 pb-2 text-right">Métricas</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm">
+        {% for v in vendedores %}
+        <tr
+          class="group bg-white hover:bg-gray-50 transition-all duration-300 shadow-sm"
+        >
+          <td class="px-6 py-5 rounded-l-2xl border-y border-l border-gray-100">
+            <div class="flex items-center gap-3">
+              <div
+                class="h-10 w-10 rounded-xl bg-gray-900 flex items-center justify-center text-cyan-400 font-bold group-hover:bg-cyan-500 group-hover:text-white transition-colors"
+              >
+                {{ v.username|slice:":1"|upper }}
+              </div>
+              <div class="flex flex-col">
+                <span
+                  class="font-bold text-black group-hover:text-cyan-600 transition-colors"
+                >
+                  {{ v.get_full_name|default:v.username }}
+                </span>
+                <span
+                  class="text-[10px] font-mono text-gray-400 uppercase tracking-tighter"
+                  >ID: {{ v.employee_code }}</span
+                >
+              </div>
+            </div>
+          </td>
+
+          <td class="px-6 py-5 border-y border-gray-100">
+            <div class="flex items-center gap-2">
+              <div
+                class="h-1.5 w-1.5 rounded-full {% if v.last_login %}bg-green-400{% else %}bg-gray-300{% endif %}"
+              ></div>
+              <span class="font-medium text-gray-600">
+                {{ v.last_login|date:"d M, H:i"|default:"Sin acceso" }}
+              </span>
+            </div>
+          </td>
+
+          <td class="px-6 py-5 border-y border-gray-100 text-center">
+            <div class="flex items-center justify-center gap-2">
+              <!-- Editar -->
+              <a
+                href="{% url 'users:user_update' v.id %}"
+                class="p-2 text-gray-400 hover:text-cyan-600 hover:bg-cyan-50 rounded-lg transition-all"
+                title="Editar Vendedor"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 18px; height: 18px"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="{% url 'users:user_delete' v.id %}"
+                class="p-2 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all"
+                title="Eliminar Vendedor"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 18px; height: 18px"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                  />
+                </svg>
+              </a>
+            </div>
+          </td>
+
+          <td
+            class="px-6 py-5 rounded-r-2xl border-y border-r border-gray-100 text-right"
+          >
+            <a
+              href="{% url 'users:seller_detail' v.id %}"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-black text-white text-[10px] font-black uppercase tracking-widest rounded-xl hover:bg-cyan-500 transition-all shadow-lg shadow-gray-100"
+            >
+              Detalles
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 12px; height: 12px"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </td>
+        </tr>
+        {% empty %}
+        <tr>
+          <td colspan="4" class="py-12 text-center">
+            <div class="flex flex-col items-center gap-2">
+              <span class="text-3xl text-gray-200">∅</span>
+              <p class="text-gray-400 font-medium italic">
+                No hay vendedores asignados.
+              </p>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

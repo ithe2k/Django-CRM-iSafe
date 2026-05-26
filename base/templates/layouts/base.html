@@ -1,0 +1,80 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:'es' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ user.role }} | iSafe CRM{% endblock %}</title>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+
+    <div class="flex h-screen overflow-hidden bg-gray-50/30">
+        
+        <div class="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+            
+            {% if user.is_authenticated %}
+            <header class="bg-white border-b border-gray-100 px-6 py-4">
+                <nav class="flex items-center justify-between max-w-7xl mx-auto w-full">
+                    <div class="flex items-center gap-2">
+                        <span class="text-xl font-black tracking-tighter text-black">
+                            iSafe<span class="text-cyan-500">.</span>
+                        </span>
+                        <span class="hidden md:inline-block px-2 py-1 text-[10px] font-bold uppercase tracking-widest bg-gray-100 text-gray-500 rounded">
+                            {{ user.role }}
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-6">
+                        <span class="text-sm font-medium text-black-600">
+                            <span class="text-gray-400 font-light">Hola,</span> {{ user.first_name }} {{ user.last_name }}
+                        </span>
+                        
+                        <div class="h-8 w-px bg-gray-100"></div>
+                        
+                        <div class="hover:text-cyan-600 transition-colors">
+                            {% include '_includes/_logout_button.html' %}
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            {% endif %}
+
+            <main class="flex-1 p-4 md:p-8 lg:p-12 max-w-7xl mx-auto w-full">
+                
+                {% if messages %}
+                    <div class="mb-8 space-y-3">
+                        {% for message in messages %}
+                            <div class="flex items-center p-4 text-sm font-medium rounded-xl border {% if message.tags == 'success' %}bg-cyan-50 border-cyan-100 text-cyan-800{% else %}bg-red-50 border-red-100 text-red-800{% endif %}">
+                                <span class="mr-2">
+                                    {% if message.tags == 'success' %}✓{% else %}!{% endif %}
+                                </span>
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <div class="animate-in fade-in duration-500">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+
+            </main>
+
+            <footer class="py-8 border-t border-gray-50">
+                <div class="max-w-7xl mx-auto px-8">
+                    {% include '_includes/_footer.html' %}
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

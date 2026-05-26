@@ -1,0 +1,91 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Dashboard | iSafe CRM{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-gray-100 pb-8">
+        <div>
+            <h1 class="text-3xl font-black tracking-tight text-black flex items-center gap-2">
+                Panel de Control <span class="text-cyan-500 text-4xl">.</span>
+            </h1>
+            <p class="text-gray-500 mt-1 font-medium">
+                Gestión inteligente de seguridad y clientes
+            </p>
+        </div>
+    <div class="mb-6">
+    <form action="." method="get" class="flex flex-col md:flex-row gap-3 items-center">
+        <div class="relative w-full md:w-96">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+            <input 
+                type="text" 
+                name="q" 
+                id="searcher"
+                class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 text-sm transition-all"
+                placeholder="{% if es_supervisor %}Buscar vendedor...{% else %}Buscar cliente...{% endif %}"
+                value="{{ request.GET.q|default:'' }}"
+            >
+        </div>
+
+        <button 
+            type="submit" 
+            class="w-full md:w-auto px-5 py-2 bg-cyan-400 hover:bg-black text-white font-medium rounded-lg text-sm transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300"
+        >
+            Buscar
+        </button>
+
+        {% if request.GET.q %}
+            <a 
+                href="{% url 'base:dashboard' %}" 
+                class="text-sm text-gray-500 hover:text-gray-700 underline decoration-gray-300"
+            >
+                Limpiar filtros
+            </a>
+        {% endif %}
+    </form>
+</div>
+
+        
+
+        <div class="flex items-center gap-3 bg-white p-2 pr-4 border border-gray-100 rounded-2xl shadow-sm w-fit">
+            <div class="h-10 w-10 bg-black text-cyan-400 rounded-xl flex items-center justify-center font-bold">
+                {{ user.username|slice:":1"|upper }}
+            </div>
+            <div class="flex flex-col">
+                <span class="text-sm font-bold text-black">{{ user.first_name }} {{ user.last_name }}</span>
+                <span class="text-[10px] font-bold text-cyan-600 uppercase tracking-tighter italic">
+                    {{ user.get_role_display|default:user.role }}
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="dashboard-dinamico" class="animate-in fade-in slide-in-from-bottom-4 duration-700">
+        {% if es_admin %}
+            <div class="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+                {% include 'base/admin_dashboard.html' %}
+            </div>
+        {% elif es_supervisor %}
+            <div class="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+                {% include 'base/supervisor_dashboard.html' %}
+            </div>
+        {% elif es_vendedor %}
+            <div class="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+                {% include 'base/seller_dashboard.html' %}
+            </div>
+        {% else %}
+            <div class="flex flex-col items-center justify-center py-20 bg-gray-50 rounded-3xl border-2 border-dashed border-gray-200">
+                <div class="text-red-500 text-4xl mb-4">!</div>
+                <h3 class="text-lg font-bold text-black">Rol no identificado</h3>
+                <p class="text-gray-500 text-sm max-w-xs text-center mt-2">
+                    Tu usuario no tiene un rol asignado en el sistema. Por favor, contacta con el administrador.
+                </p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

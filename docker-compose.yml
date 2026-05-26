@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:15
+    container_name: crm_isafe_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=crm_db
+      - POSTGRES_USER=bx_user
+      - POSTGRES_PASSWORD=mi_password_segura
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,26 @@
+
+venv/
+.env
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+db.sqlite3
+db.sqlite3-journal
+
+
+locale/*/LC_MESSAGES/*.mo
+static/
+media/
+media/customers/
+
+
+# IDEs (VS Code & JetBrains)
+.vscode/
+.idea/
+
+# Sistema (Pop!_OS / Linux)
+.DS_Store
+.thumbnails/

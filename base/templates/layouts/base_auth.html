@@ -1,0 +1,55 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:'es' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}iSafe CRM - Acceso{% endblock %}</title>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <style>
+        :root {
+            --color-turquesa: #06b6d4; /* cyan-500 */
+            --color-turquesa-dark: #0891b2; /* cyan-600 */
+        }
+    </style>
+
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+    
+    <div class="min-h-screen flex flex-col justify-center relative overflow-hidden bg-gray-50/50">
+        
+        <div class="absolute top-0 left-0 w-full h-1 bg-cyan-500"></div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-md px-6">
+            <div class="text-center">
+                <h1 class="text-4xl font-black tracking-tight text-black">
+                    iSafe<span class="text-cyan-500">.</span>CRM
+                </h1>
+                <p class="mt-2 text-sm text-gray-500 font-medium uppercase tracking-widest">
+                    Panel de Control Profesional
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="bg-white py-10 px-8 border border-gray-100 shadow-2xl shadow-gray-200/50 sm:rounded-2xl">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <p class="text-xs text-gray-400 font-light">
+                    &copy; 2026 iSafe Security Systems. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
