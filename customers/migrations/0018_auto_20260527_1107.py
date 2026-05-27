@@ -397,9 +397,9 @@ class Migration(migrations.Migration):
     dependencies = [
         (
             "customers",
-            "0001_initial",
-        ),  # Asegúrate de poner el nombre exacto de tu migración base de clientes
-        ("users", "0001_initial"),  # Y de la de usuarios
+            "0019_merge_20260527_1123",
+        ),
+        ("users", "0001_initial"),
     ]
 
     operations = [
