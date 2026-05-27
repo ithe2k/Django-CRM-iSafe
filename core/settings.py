@@ -73,9 +73,7 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.config(
-        # Lee la URL de la base de datos desde el entorno de Render
         default=os.environ.get("DATABASE_URL"),
-        # Mantiene las conexiones abiertas 10 minutos para mejorar el rendimiento
         conn_max_age=600,
     )
 }
