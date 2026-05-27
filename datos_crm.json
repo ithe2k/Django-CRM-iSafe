@@ -1,5 +1,1084 @@
 [
 {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-05-07T10:48:08.919Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "bx_admin1 - Supervisor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Rol\", \"C\\u00f3digo de empleado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-05-07T10:50:19.198Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-05-07T10:50:59.717Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-05-07T10:52:27.953Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-05-07T10:53:03.080Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-05-07T10:54:08.936Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven_pau - Vendedor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-05-07T10:54:31.029Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven_pau - Vendedor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-05-07T10:55:07.715Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven_raquel - Vendedor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-05-07T10:55:24.430Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven_raquel - Vendedor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-05-07T10:55:48.564Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-05-07T10:56:25.886Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-05-07T23:57:26.950Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "bx_admin1 - Admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Rol\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-05-07T23:58:02.435Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-05-07T23:59:27.155Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-05-07T23:59:46.391Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-05-08T00:00:09.313Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-05-08T00:00:22.408Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-05-08T00:00:52.251Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "bx_admin1 - Admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-05-09T01:44:54.283Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-05-09T01:45:36.997Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-05-09T01:45:55.618Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-05-09T01:46:07.044Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-05-11T07:05:35.136Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-05-11T08:58:52.556Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-05-11T08:59:09.317Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-05-11T08:59:22.328Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-05-11T10:10:55.120Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven1_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-05-11T10:11:07.482Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven2_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-05-11T10:11:19.677Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven3_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-05-11T10:24:16.176Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Jaun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - \"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2026-05-11T14:11:45.005Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Juan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2026-05-11T14:14:20.843Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Juan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Codigo Cliente\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2026-05-11T17:22:37.134Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven1_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2026-05-11T17:27:00.195Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "ven1_marta - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2026-05-11T21:50:58.158Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "sup_joan - Supervisor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2026-05-11T22:12:09.730Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Andrea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CAD001002\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2026-05-11T22:16:06.109Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Carla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CCG001003\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2026-05-11T22:20:06.810Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Ralph",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CRH001002\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2026-05-11T22:24:54.341Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Joshua",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CJP002002\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2026-05-11T22:28:19.217Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Mayte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CMG003002\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2026-05-11T22:33:01.230Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Karen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CKL001003\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2026-05-11T22:35:57.622Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Hamid",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CHA002003\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2026-05-11T22:38:58.519Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CGS003003\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2026-05-12T00:24:30.098Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "- - Salazar (11/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Interaction type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2026-05-12T00:26:23.116Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"interaction\", \"object\": \"CALL - Salazar (11/05/2026)\", \"fields\": [\"Interaction type\", \"Notes\", \"Duration minutes\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2026-05-12T00:26:40.906Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "CALL - Salazar (11/05/2026)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "CALL - Arzauk (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "CALL - López (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "CALL - Gutierrez (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "CALL - Pineda (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "CALL - Velazquez (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "CALL - Goikochea (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "CALL - Doria (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2026-05-12T00:26:58.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "CALL - Narvaez (11/05/2026)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2026-05-12T00:28:24.401Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Hamid",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"MEETING - Arzauk (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2026-05-12T00:29:11.687Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Karen",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"EMAIL - L\\u00f3pez (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2026-05-12T00:32:20.004Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Mayte",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"WHATSAPP - Gutierrez (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2026-05-12T00:33:19.290Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Joshua",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"MEETING - Pineda (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2026-05-12T00:36:24.880Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Carla",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"VIDEOCALL - Goikochea (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2026-05-12T00:37:20.787Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Andrea",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"EMAIL - Doria (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2026-05-12T00:37:30.317Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Juan",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"- - Narvaez (12/05/2026)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2026-05-12T01:00:08.192Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "- - Narvaez (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2026-05-12T01:00:43.176Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Carla",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2026-05-12T01:01:00.856Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "EMAIL - Doria (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2026-05-12T01:01:11.197Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "VIDEOCALL - Goikochea (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2026-05-12T01:01:24.129Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "MEETING - Pineda (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2026-05-12T01:01:40.033Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "WHATSAPP - Gutierrez (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2026-05-12T01:01:47.588Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "WHATSAPP - Gutierrez (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2026-05-12T01:02:02.285Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "EMAIL - López (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2026-05-12T01:02:20.909Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "MEETING - Arzauk (12/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2026-05-12T01:02:29.560Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "CALL - Salazar (11/05/2026)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2026-05-12T22:59:18.197Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven2_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2026-05-12T22:59:35.110Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven3_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2026-05-25T08:51:23.052Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven3_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2026-05-25T08:51:35.425Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "ven2_raquel - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2026-05-25T08:51:44.301Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "ven3_pau - Vendedor/a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2026-05-26T06:57:53.345Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2026-05-26T06:59:34.827Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2026-05-26T07:17:47.557Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2026-05-26T07:18:20.219Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2026-05-26T07:21:01.400Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2026-05-26T07:27:12.365Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2026-05-26T07:33:11.972Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Gloria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
     "model": "sessions.session",
     "pk": "0c4zia97wzp06iy30zf18hbb0vvt53op",
     "fields": {
@@ -65,11 +1144,11 @@
 },
 {
     "model": "users.user",
+    "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$1200000$TSrNV3MFGpQHjlbSLH3won$7ZZTXWr01OEfyLTWHmCrvSlfkPlYUL4NmAVli4Qp9DE=",
         "last_login": "2026-05-26T07:27:04.100Z",
         "is_superuser": true,
-        "username": "bx_admin1",
         "first_name": "",
         "last_name": "",
         "email": "bx@bx1.com",
@@ -81,176 +1160,48 @@
         "supervisor": null,
         "groups": [],
         "user_permissions": [
-            [
-                "add_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "change_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "delete_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "view_logentry",
-                "admin",
-                "logentry"
-            ],
-            [
-                "add_group",
-                "auth",
-                "group"
-            ],
-            [
-                "change_group",
-                "auth",
-                "group"
-            ],
-            [
-                "delete_group",
-                "auth",
-                "group"
-            ],
-            [
-                "view_group",
-                "auth",
-                "group"
-            ],
-            [
-                "add_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "change_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "delete_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "view_permission",
-                "auth",
-                "permission"
-            ],
-            [
-                "add_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "change_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "delete_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "view_contenttype",
-                "contenttypes",
-                "contenttype"
-            ],
-            [
-                "add_customer",
-                "customers",
-                "customer"
-            ],
-            [
-                "change_customer",
-                "customers",
-                "customer"
-            ],
-            [
-                "delete_customer",
-                "customers",
-                "customer"
-            ],
-            [
-                "view_customer",
-                "customers",
-                "customer"
-            ],
-            [
-                "add_interaction",
-                "customers",
-                "interaction"
-            ],
-            [
-                "change_interaction",
-                "customers",
-                "interaction"
-            ],
-            [
-                "delete_interaction",
-                "customers",
-                "interaction"
-            ],
-            [
-                "view_interaction",
-                "customers",
-                "interaction"
-            ],
-            [
-                "add_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "change_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "delete_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "view_session",
-                "sessions",
-                "session"
-            ],
-            [
-                "add_user",
-                "users",
-                "user"
-            ],
-            [
-                "change_user",
-                "users",
-                "user"
-            ],
-            [
-                "delete_user",
-                "users",
-                "user"
-            ],
-            [
-                "view_user",
-                "users",
-                "user"
-            ]
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            29,
+            30,
+            31,
+            32,
+            25,
+            26,
+            27,
+            28,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
         ]
     }
 },
 {
     "model": "users.user",
+    "pk": 4,
     "fields": {
         "password": "pbkdf2_sha256$1200000$VjMEQ40VtHBydU25r9dF5x$9EdZ2FFEyUhDhutiFHvTTtWK7Xod3dn1VRxL2+ZOwnc=",
         "last_login": "2026-05-26T07:33:33.234Z",
         "is_superuser": false,
-        "username": "sup_joan",
         "first_name": "Joan",
         "last_name": "Muntaner",
         "email": "joan@sup.com",
@@ -266,11 +1217,11 @@
 },
 {
     "model": "users.user",
+    "pk": 5,
     "fields": {
         "password": "pbkdf2_sha256$1200000$Hoq1y4mnbMq2vd8dnvl3lM$QugKZWsiPM2l2MfKs95rHTtiiryOMv2FrJ1Ukw4pgSc=",
         "last_login": "2026-05-26T07:39:36.200Z",
         "is_superuser": false,
-        "username": "ven1_marta",
         "first_name": "Marta",
         "last_name": "Diaz",
         "email": "marta@ven.com",
@@ -279,20 +1230,18 @@
         "date_joined": "2026-05-07T10:52:27Z",
         "role": "SELLER",
         "employee_code": "VEN001",
-        "supervisor": [
-            "sup_joan"
-        ],
+        "supervisor": 4,
         "groups": [],
         "user_permissions": []
     }
 },
 {
     "model": "users.user",
+    "pk": 6,
     "fields": {
         "password": "pbkdf2_sha256$1200000$PGNFClk3de9BOF59NsvF5o$1zCEu7oWoUB5cHYCVdmoDrzFr3i/hHBpxpVR1woR0H4=",
         "last_login": "2026-05-26T07:36:28.789Z",
         "is_superuser": false,
-        "username": "ven3_pau",
         "first_name": "Pau",
         "last_name": "Ortell",
         "email": "pau@ven.com",
@@ -301,20 +1250,18 @@
         "date_joined": "2026-05-07T10:54:08Z",
         "role": "SELLER",
         "employee_code": "VEN003",
-        "supervisor": [
-            "sup_joan"
-        ],
+        "supervisor": 4,
         "groups": [],
         "user_permissions": []
     }
 },
 {
     "model": "users.user",
+    "pk": 7,
     "fields": {
         "password": "pbkdf2_sha256$1200000$LnsftqZy56xisdKbkpDZQo$FoXgNH1XJYqCDN/9rqVamS+keTK05oy3RB/KTbfPbo0=",
         "last_login": "2026-05-26T07:41:04.195Z",
         "is_superuser": false,
-        "username": "ven2_raquel",
         "first_name": "Raquel",
         "last_name": "Marquez",
         "email": "raquel@ven.com",
@@ -323,9 +1270,7 @@
         "date_joined": "2026-05-07T10:55:07Z",
         "role": "SELLER",
         "employee_code": "VEN002",
-        "supervisor": [
-            "sup_joan"
-        ],
+        "supervisor": 4,
         "groups": [],
         "user_permissions": []
     }
@@ -347,9 +1292,7 @@
         "company": null,
         "status": "INTERESTED",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "created_at": "2026-05-26"
     }
 },
@@ -370,9 +1313,7 @@
         "company": null,
         "status": "INTERESTED",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "created_at": "2026-05-26"
     }
 },
@@ -393,9 +1334,7 @@
         "company": "NewTech",
         "status": "NEGOTIATION",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "created_at": "2026-05-26"
     }
 },
@@ -416,9 +1355,7 @@
         "company": "Restauraciones Velazquez",
         "status": "INTERESTED",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "created_at": "2026-05-26"
     }
 },
@@ -439,9 +1376,7 @@
         "company": "Suministros Sanitarios Pineda",
         "status": "NEW_LEAD",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "created_at": "2026-05-26"
     }
 },
@@ -462,9 +1397,7 @@
         "company": null,
         "status": "NEW_LEAD",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "created_at": "2026-05-26"
     }
 },
@@ -485,9 +1418,7 @@
         "company": "Peluquerias NewLook",
         "status": "NEW_LEAD",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "created_at": "2026-05-26"
     }
 },
@@ -508,9 +1439,7 @@
         "company": "Joyerias Arzauk",
         "status": "NEW_LEAD",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "created_at": "2026-05-26"
     }
 },
@@ -531,9 +1460,7 @@
         "company": null,
         "status": "NEW_LEAD",
         "product": "ALARMS_OUT",
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "created_at": "2026-05-26"
     }
 },
@@ -542,9 +1469,7 @@
     "pk": 10,
     "fields": {
         "customer": 11,
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "interaction_type": "CALL",
         "notes": "Se le pregunta por la informacion recibida y se tantea su opinion sobre el producto.",
         "date": "2026-05-11T22:38:58.518Z",
@@ -556,9 +1481,7 @@
     "pk": 11,
     "fields": {
         "customer": 10,
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "interaction_type": "MEETING",
         "notes": "Interesado nuestro pack completo de Seguridad previa apretura del negocio",
         "date": "2026-05-12T00:28:24.399Z",
@@ -570,9 +1493,7 @@
     "pk": 13,
     "fields": {
         "customer": 8,
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "interaction_type": "WHATSAPP",
         "notes": "Se  contacta tras mostrar interes por nuestra gama de detectores de movimiento",
         "date": "2026-05-12T00:32:20.002Z",
@@ -584,9 +1505,7 @@
     "pk": 14,
     "fields": {
         "customer": 7,
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "interaction_type": "MEETING",
         "notes": "Ralph necesita un sistema completo de videovigilancia puesto que ha cambiado la ubicacion de sus almacenes.",
         "date": "2026-05-12T00:33:19.289Z",
@@ -598,9 +1517,7 @@
     "pk": 15,
     "fields": {
         "customer": 5,
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "interaction_type": "VIDEOCALL",
         "notes": "Nos comenta que ha abierto una nueva oficina en el centro y necesita un sistema de videovigilancia y alarmas interiores.",
         "date": "2026-05-12T00:36:24.879Z",
@@ -612,9 +1529,7 @@
     "pk": 16,
     "fields": {
         "customer": 4,
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "interaction_type": "EMAIL",
         "notes": "Solicita info sobre alrmas internas. Se le envia info comercial y contacto",
         "date": "2026-05-12T00:37:20.784Z",
@@ -626,9 +1541,7 @@
     "pk": 26,
     "fields": {
         "customer": 3,
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "interaction_type": "MEETING",
         "notes": "El cliente manifiesta interes por la instalación de alarmas interiores",
         "date": "2026-05-14T07:56:31.573Z",
@@ -640,9 +1553,7 @@
     "pk": 27,
     "fields": {
         "customer": 5,
-        "seller": [
-            "ven1_marta"
-        ],
+        "seller": 5,
         "interaction_type": "CALL",
         "notes": "La cliente nos confirma interes en la instalacion de los sistemas consultados.",
         "date": "2026-05-14T07:58:29.920Z",
@@ -654,9 +1565,7 @@
     "pk": 28,
     "fields": {
         "customer": 6,
-        "seller": [
-            "ven2_raquel"
-        ],
+        "seller": 7,
         "interaction_type": "EMAIL",
         "notes": "El cliente nos contacta para solicitar informacion sobre nuestro set completo de vigilancia.",
         "date": "2026-05-14T08:03:46.562Z",
@@ -668,9 +1577,7 @@
     "pk": 30,
     "fields": {
         "customer": 9,
-        "seller": [
-            "ven3_pau"
-        ],
+        "seller": 6,
         "interaction_type": "CALL",
         "notes": "La clienta contacta tras intento de entrada a su negocio. solicita informacion sobre sistema de videovigilancia",
         "date": "2026-05-14T08:07:00.417Z",
@@ -682,1507 +1589,11 @@
     "pk": 35,
     "fields": {
         "customer": 3,
-        "seller": [
-            "sup_joan"
-        ],
+        "seller": 4,
         "interaction_type": "CALL",
         "notes": "El cliente solicita dossier sobre el catalogo de alarmas",
         "date": "2026-05-14T21:41:19.185Z",
         "duration_minutes": 20
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 1,
-    "fields": {
-        "action_time": "2026-05-07T10:48:08.919Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "1",
-        "object_repr": "bx_admin1 - Supervisor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Rol\", \"C\\u00f3digo de empleado\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 2,
-    "fields": {
-        "action_time": "2026-05-07T10:50:19.198Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "action_time": "2026-05-07T10:50:59.717Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 4,
-    "fields": {
-        "action_time": "2026-05-07T10:52:27.953Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 5,
-    "fields": {
-        "action_time": "2026-05-07T10:53:03.080Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-        "action_time": "2026-05-07T10:54:08.936Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven_pau - Vendedor",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 7,
-    "fields": {
-        "action_time": "2026-05-07T10:54:31.029Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven_pau - Vendedor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 8,
-    "fields": {
-        "action_time": "2026-05-07T10:55:07.715Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven_raquel - Vendedor",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 9,
-    "fields": {
-        "action_time": "2026-05-07T10:55:24.430Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven_raquel - Vendedor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 10,
-    "fields": {
-        "action_time": "2026-05-07T10:55:48.564Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 11,
-    "fields": {
-        "action_time": "2026-05-07T10:56:25.886Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 12,
-    "fields": {
-        "action_time": "2026-05-07T23:57:26.950Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "1",
-        "object_repr": "bx_admin1 - Admin",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Rol\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 13,
-    "fields": {
-        "action_time": "2026-05-07T23:58:02.435Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 14,
-    "fields": {
-        "action_time": "2026-05-07T23:59:27.155Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 15,
-    "fields": {
-        "action_time": "2026-05-07T23:59:46.391Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 16,
-    "fields": {
-        "action_time": "2026-05-08T00:00:09.313Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 17,
-    "fields": {
-        "action_time": "2026-05-08T00:00:22.408Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 18,
-    "fields": {
-        "action_time": "2026-05-08T00:00:52.251Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "1",
-        "object_repr": "bx_admin1 - Admin",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 19,
-    "fields": {
-        "action_time": "2026-05-09T01:44:54.283Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-        "action_time": "2026-05-09T01:45:36.997Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 21,
-    "fields": {
-        "action_time": "2026-05-09T01:45:55.618Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 22,
-    "fields": {
-        "action_time": "2026-05-09T01:46:07.044Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 23,
-    "fields": {
-        "action_time": "2026-05-11T07:05:35.136Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 24,
-    "fields": {
-        "action_time": "2026-05-11T08:58:52.556Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 25,
-    "fields": {
-        "action_time": "2026-05-11T08:59:09.317Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 26,
-    "fields": {
-        "action_time": "2026-05-11T08:59:22.328Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Supervisor/a asignado/a\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 27,
-    "fields": {
-        "action_time": "2026-05-11T10:10:55.120Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven1_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 28,
-    "fields": {
-        "action_time": "2026-05-11T10:11:07.482Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven2_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 29,
-    "fields": {
-        "action_time": "2026-05-11T10:11:19.677Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven3_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 30,
-    "fields": {
-        "action_time": "2026-05-11T10:24:16.176Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "3",
-        "object_repr": "Jaun",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - \"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 31,
-    "fields": {
-        "action_time": "2026-05-11T14:11:45.005Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "3",
-        "object_repr": "Juan",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 32,
-    "fields": {
-        "action_time": "2026-05-11T14:14:20.843Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "3",
-        "object_repr": "Juan",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Codigo Cliente\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 33,
-    "fields": {
-        "action_time": "2026-05-11T17:22:37.134Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven1_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 34,
-    "fields": {
-        "action_time": "2026-05-11T17:27:00.195Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "5",
-        "object_repr": "ven1_marta - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 35,
-    "fields": {
-        "action_time": "2026-05-11T21:50:58.158Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "4",
-        "object_repr": "sup_joan - Supervisor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 36,
-    "fields": {
-        "action_time": "2026-05-11T22:12:09.730Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "4",
-        "object_repr": "Andrea",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CAD001002\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 37,
-    "fields": {
-        "action_time": "2026-05-11T22:16:06.109Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "5",
-        "object_repr": "Carla",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CCG001003\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 38,
-    "fields": {
-        "action_time": "2026-05-11T22:20:06.810Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "6",
-        "object_repr": "Ralph",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CRH001002\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 39,
-    "fields": {
-        "action_time": "2026-05-11T22:24:54.341Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "7",
-        "object_repr": "Joshua",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CJP002002\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 40,
-    "fields": {
-        "action_time": "2026-05-11T22:28:19.217Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "8",
-        "object_repr": "Mayte",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CMG003002\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 41,
-    "fields": {
-        "action_time": "2026-05-11T22:33:01.230Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "9",
-        "object_repr": "Karen",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CKL001003\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 42,
-    "fields": {
-        "action_time": "2026-05-11T22:35:57.622Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "10",
-        "object_repr": "Hamid",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CHA002003\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 43,
-    "fields": {
-        "action_time": "2026-05-11T22:38:58.519Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Interacci\\u00f3n\", \"object\": \"Interacci\\u00f3n 1 - CGS003003\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 44,
-    "fields": {
-        "action_time": "2026-05-12T00:24:30.098Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "10",
-        "object_repr": "- - Salazar (11/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Interaction type\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 45,
-    "fields": {
-        "action_time": "2026-05-12T00:26:23.116Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"name\": \"interaction\", \"object\": \"CALL - Salazar (11/05/2026)\", \"fields\": [\"Interaction type\", \"Notes\", \"Duration minutes\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 46,
-    "fields": {
-        "action_time": "2026-05-12T00:26:40.906Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "10",
-        "object_repr": "CALL - Salazar (11/05/2026)",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 47,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "9",
-        "object_repr": "CALL - Arzauk (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 48,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "8",
-        "object_repr": "CALL - López (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 49,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "7",
-        "object_repr": "CALL - Gutierrez (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 50,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "6",
-        "object_repr": "CALL - Pineda (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 51,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "5",
-        "object_repr": "CALL - Velazquez (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 52,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "4",
-        "object_repr": "CALL - Goikochea (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 53,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "3",
-        "object_repr": "CALL - Doria (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 54,
-    "fields": {
-        "action_time": "2026-05-12T00:26:58.642Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "2",
-        "object_repr": "CALL - Narvaez (11/05/2026)",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 55,
-    "fields": {
-        "action_time": "2026-05-12T00:28:24.401Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "10",
-        "object_repr": "Hamid",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"MEETING - Arzauk (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 56,
-    "fields": {
-        "action_time": "2026-05-12T00:29:11.687Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "9",
-        "object_repr": "Karen",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"EMAIL - L\\u00f3pez (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 57,
-    "fields": {
-        "action_time": "2026-05-12T00:32:20.004Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "8",
-        "object_repr": "Mayte",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"WHATSAPP - Gutierrez (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 58,
-    "fields": {
-        "action_time": "2026-05-12T00:33:19.290Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "7",
-        "object_repr": "Joshua",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"MEETING - Pineda (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 59,
-    "fields": {
-        "action_time": "2026-05-12T00:36:24.880Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "5",
-        "object_repr": "Carla",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"VIDEOCALL - Goikochea (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 60,
-    "fields": {
-        "action_time": "2026-05-12T00:37:20.787Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "4",
-        "object_repr": "Andrea",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"EMAIL - Doria (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 61,
-    "fields": {
-        "action_time": "2026-05-12T00:37:30.317Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "3",
-        "object_repr": "Juan",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"interaction\", \"object\": \"- - Narvaez (12/05/2026)\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 62,
-    "fields": {
-        "action_time": "2026-05-12T01:00:08.192Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "17",
-        "object_repr": "- - Narvaez (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 63,
-    "fields": {
-        "action_time": "2026-05-12T01:00:43.176Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "5",
-        "object_repr": "Carla",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 64,
-    "fields": {
-        "action_time": "2026-05-12T01:01:00.856Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "16",
-        "object_repr": "EMAIL - Doria (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 65,
-    "fields": {
-        "action_time": "2026-05-12T01:01:11.197Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "15",
-        "object_repr": "VIDEOCALL - Goikochea (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 66,
-    "fields": {
-        "action_time": "2026-05-12T01:01:24.129Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "14",
-        "object_repr": "MEETING - Pineda (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 67,
-    "fields": {
-        "action_time": "2026-05-12T01:01:40.033Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "13",
-        "object_repr": "WHATSAPP - Gutierrez (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 68,
-    "fields": {
-        "action_time": "2026-05-12T01:01:47.588Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "13",
-        "object_repr": "WHATSAPP - Gutierrez (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 69,
-    "fields": {
-        "action_time": "2026-05-12T01:02:02.285Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "12",
-        "object_repr": "EMAIL - López (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 70,
-    "fields": {
-        "action_time": "2026-05-12T01:02:20.909Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "11",
-        "object_repr": "MEETING - Arzauk (12/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 71,
-    "fields": {
-        "action_time": "2026-05-12T01:02:29.560Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "interaction"
-        ],
-        "object_id": "10",
-        "object_repr": "CALL - Salazar (11/05/2026)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Seller\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 72,
-    "fields": {
-        "action_time": "2026-05-12T22:59:18.197Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven2_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 73,
-    "fields": {
-        "action_time": "2026-05-12T22:59:35.110Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven3_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 74,
-    "fields": {
-        "action_time": "2026-05-25T08:51:23.052Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven3_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 75,
-    "fields": {
-        "action_time": "2026-05-25T08:51:35.425Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "7",
-        "object_repr": "ven2_raquel - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 76,
-    "fields": {
-        "action_time": "2026-05-25T08:51:44.301Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "users",
-            "user"
-        ],
-        "object_id": "6",
-        "object_repr": "ven3_pau - Vendedor/a",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"C\\u00f3digo de empleado\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 77,
-    "fields": {
-        "action_time": "2026-05-26T06:57:53.345Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 78,
-    "fields": {
-        "action_time": "2026-05-26T06:59:34.827Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 79,
-    "fields": {
-        "action_time": "2026-05-26T07:17:47.557Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 80,
-    "fields": {
-        "action_time": "2026-05-26T07:18:20.219Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 81,
-    "fields": {
-        "action_time": "2026-05-26T07:21:01.400Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 82,
-    "fields": {
-        "action_time": "2026-05-26T07:27:12.365Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 83,
-    "fields": {
-        "action_time": "2026-05-26T07:33:11.972Z",
-        "user": [
-            "bx_admin1"
-        ],
-        "content_type": [
-            "customers",
-            "customer"
-        ],
-        "object_id": "11",
-        "object_repr": "Gloria",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
     }
 }
 ]
