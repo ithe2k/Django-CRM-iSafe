@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.contrib.auth import get_user_model
 from django.db import connection
 from django.urls import include, path
 
@@ -41,7 +42,6 @@ def reparar_tabla_usuario_completa():
                 "ALTER TABLE crm_user ADD COLUMN IF NOT EXISTS email VARCHAR(254) DEFAULT '';"
             )
 
-            # 2. Asegurar tus campos personalizados del CRM
             cursor.execute(
                 "ALTER TABLE crm_user ADD COLUMN IF NOT EXISTS role VARCHAR(20) DEFAULT 'SELLER';"
             )
@@ -57,8 +57,29 @@ def reparar_tabla_usuario_completa():
         print(f"Error al reparar la tabla: {e}")
 
 
-# Ejecutar la reparación automática al cargar el servidor
 reparar_tabla_usuario_completa()
+
+
+def asegurar_usuario_admin():
+    try:
+        User = get_user_model()
+
+        if not User.objects.filter(username="admin_username").exists():
+            print("--- INYECTANDO USUARIO ADMINISTRADOR EN PRODUCTION ---")
+            User.objects.create_superuser(
+                username="bx_admin1",
+                email="admin@ejemplo.com",
+                password="proyect123",
+                role="ADMIN",
+                employee_code="ADM001",
+            )
+            print("--- USUARIO CREADO CON ÉXITO ---")
+    except Exception as e:
+        print(f"Error al inyectar el usuario: {e}")
+
+
+asegurar_usuario_admin()
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", UserLoginView.as_view(), name="login"),
