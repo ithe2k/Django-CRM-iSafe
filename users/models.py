@@ -34,6 +34,7 @@ class User(AbstractUser):
     )
 
     class Meta:
+        db_table = "crm_user"
         verbose_name = _("usuario")
         verbose_name_plural = _("usuarios")
 
