@@ -1,0 +1,323 @@
+[
+{
+    "model": "customers.customer",
+    "pk": 3,
+    "fields": {
+        "photo": "media/customers/ven1_juan_ZgoWyRF_wnieys",
+        "first_name": "Juan",
+        "last_name": "Narvaez",
+        "nif_nie": "43567891T",
+        "adress": "Constanza 9, Madrid",
+        "email": "jnarv@cust.com",
+        "phone_number": "123456789",
+        "customer_code": "CJN001001",
+        "marital_status": "Casado/a",
+        "profession": "Fontanero",
+        "company": null,
+        "status": "INTERESTED",
+        "product": "ALARMS_OUT",
+        "seller": 5,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 4,
+    "fields": {
+        "photo": "media/customers/ven1_andrea_bCPrefQ_nzbeqj",
+        "first_name": "Andrea",
+        "last_name": "Doria",
+        "nif_nie": null,
+        "adress": "Calle  Maria de Sepulveda 6, 07021, Mallorca",
+        "email": "andrea.d@cust.com",
+        "phone_number": "987654321",
+        "customer_code": "CAD001002",
+        "marital_status": "Soltero/a",
+        "profession": "Cocinera",
+        "company": null,
+        "status": "INTERESTED",
+        "product": "ALARMS_OUT",
+        "seller": 5,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 5,
+    "fields": {
+        "photo": "media/customers/ven1_carla_new9ro",
+        "first_name": "Carla",
+        "last_name": "Goikochea",
+        "nif_nie": null,
+        "adress": "Calle Legazpy 4, 48719, Bilbao",
+        "email": "cgoikochea@cust.com",
+        "phone_number": "132465798",
+        "customer_code": "CCG001003",
+        "marital_status": "Casado/a",
+        "profession": "Ingeniera",
+        "company": "NewTech",
+        "status": "NEGOTIATION",
+        "product": "ALARMS_OUT",
+        "seller": 5,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 6,
+    "fields": {
+        "photo": "media/customers/ven2_ralph_gubikx",
+        "first_name": "Ralph",
+        "last_name": "Velazquez",
+        "nif_nie": null,
+        "adress": "Calle Fonsana 12, 43724, Tarragona",
+        "email": "rvlz@cust.com",
+        "phone_number": "321654987",
+        "customer_code": "CRH001002",
+        "marital_status": "Casado/a",
+        "profession": "Restaurador",
+        "company": "Restauraciones Velazquez",
+        "status": "INTERESTED",
+        "product": "ALARMS_OUT",
+        "seller": 7,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 7,
+    "fields": {
+        "photo": "media/customers/ven2_josh_rk54ze",
+        "first_name": "Joshua",
+        "last_name": "Pineda",
+        "nif_nie": null,
+        "adress": "Calle de la Venganza 1, 46123, Valencia",
+        "email": "jpin@custom.com",
+        "phone_number": "978645312",
+        "customer_code": "CJP002002",
+        "marital_status": "Casado/a",
+        "profession": "Gestor empresarial",
+        "company": "Suministros Sanitarios Pineda",
+        "status": "NEW_LEAD",
+        "product": "ALARMS_OUT",
+        "seller": 7,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 8,
+    "fields": {
+        "photo": "media/customers/ven2_mayte_chqpih",
+        "first_name": "Mayte",
+        "last_name": "Gutierrez",
+        "nif_nie": null,
+        "adress": "Calle San Antoni 5, 07003, Palma",
+        "email": "mgutisan@cust.com",
+        "phone_number": "147258379",
+        "customer_code": "CMG003002",
+        "marital_status": "Casado/a",
+        "profession": "Profesora",
+        "company": null,
+        "status": "NEW_LEAD",
+        "product": "ALARMS_OUT",
+        "seller": 7,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 9,
+    "fields": {
+        "photo": "media/customers/ven3_karen_dwsgiz",
+        "first_name": "Karen",
+        "last_name": "López",
+        "nif_nie": null,
+        "adress": "Calle Cienfuegos 23, 35011, Las Palmas G.C.",
+        "email": "Klopez2@cust.com",
+        "phone_number": "975318642",
+        "customer_code": "CKL001003",
+        "marital_status": "Casado/a",
+        "profession": "Peluquera",
+        "company": "Peluquerias NewLook",
+        "status": "NEW_LEAD",
+        "product": "ALARMS_OUT",
+        "seller": 6,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 10,
+    "fields": {
+        "photo": "media/customers/ven3_hamid_o4lm6o",
+        "first_name": "Hamid",
+        "last_name": "Arzauk",
+        "nif_nie": null,
+        "adress": "Calle Alcantara 7 , 41443, Sevilla",
+        "email": "hamidaz@cust.com",
+        "phone_number": "978645344",
+        "customer_code": "CHA002003",
+        "marital_status": "Casado/a",
+        "profession": "Joyero",
+        "company": "Joyerias Arzauk",
+        "status": "NEW_LEAD",
+        "product": "ALARMS_OUT",
+        "seller": 6,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.customer",
+    "pk": 11,
+    "fields": {
+        "photo": "media/customers/ven3_gloria_la5snl",
+        "first_name": "Gloria",
+        "last_name": "Salazar",
+        "nif_nie": null,
+        "adress": "Calle Jovellanos 34, 37002, Salamanca",
+        "email": "salazarg@cust.com",
+        "phone_number": "123654987",
+        "customer_code": "CGS003003",
+        "marital_status": "Casado/a",
+        "profession": "Música",
+        "company": null,
+        "status": "NEW_LEAD",
+        "product": "ALARMS_OUT",
+        "seller": 6,
+        "created_at": "2026-05-26"
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 10,
+    "fields": {
+        "customer": 11,
+        "seller": 6,
+        "interaction_type": "CALL",
+        "notes": "Se le pregunta por la informacion recibida y se tantea su opinion sobre el producto.",
+        "date": "2026-05-11T22:38:58.518Z",
+        "duration_minutes": 10
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 11,
+    "fields": {
+        "customer": 10,
+        "seller": 6,
+        "interaction_type": "MEETING",
+        "notes": "Interesado nuestro pack completo de Seguridad previa apretura del negocio",
+        "date": "2026-05-12T00:28:24.399Z",
+        "duration_minutes": 120
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 13,
+    "fields": {
+        "customer": 8,
+        "seller": 7,
+        "interaction_type": "WHATSAPP",
+        "notes": "Se  contacta tras mostrar interes por nuestra gama de detectores de movimiento",
+        "date": "2026-05-12T00:32:20.002Z",
+        "duration_minutes": 5
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 14,
+    "fields": {
+        "customer": 7,
+        "seller": 7,
+        "interaction_type": "MEETING",
+        "notes": "Ralph necesita un sistema completo de videovigilancia puesto que ha cambiado la ubicacion de sus almacenes.",
+        "date": "2026-05-12T00:33:19.289Z",
+        "duration_minutes": 90
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 15,
+    "fields": {
+        "customer": 5,
+        "seller": 5,
+        "interaction_type": "VIDEOCALL",
+        "notes": "Nos comenta que ha abierto una nueva oficina en el centro y necesita un sistema de videovigilancia y alarmas interiores.",
+        "date": "2026-05-12T00:36:24.879Z",
+        "duration_minutes": 45
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 16,
+    "fields": {
+        "customer": 4,
+        "seller": 5,
+        "interaction_type": "EMAIL",
+        "notes": "Solicita info sobre alrmas internas. Se le envia info comercial y contacto",
+        "date": "2026-05-12T00:37:20.784Z",
+        "duration_minutes": 10
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 26,
+    "fields": {
+        "customer": 3,
+        "seller": 5,
+        "interaction_type": "MEETING",
+        "notes": "El cliente manifiesta interes por la instalación de alarmas interiores",
+        "date": "2026-05-14T07:56:31.573Z",
+        "duration_minutes": 25
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 27,
+    "fields": {
+        "customer": 5,
+        "seller": 5,
+        "interaction_type": "CALL",
+        "notes": "La cliente nos confirma interes en la instalacion de los sistemas consultados.",
+        "date": "2026-05-14T07:58:29.920Z",
+        "duration_minutes": 25
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 28,
+    "fields": {
+        "customer": 6,
+        "seller": 7,
+        "interaction_type": "EMAIL",
+        "notes": "El cliente nos contacta para solicitar informacion sobre nuestro set completo de vigilancia.",
+        "date": "2026-05-14T08:03:46.562Z",
+        "duration_minutes": 5
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 30,
+    "fields": {
+        "customer": 9,
+        "seller": 6,
+        "interaction_type": "CALL",
+        "notes": "La clienta contacta tras intento de entrada a su negocio. solicita informacion sobre sistema de videovigilancia",
+        "date": "2026-05-14T08:07:00.417Z",
+        "duration_minutes": 25
+    }
+},
+{
+    "model": "customers.interaction",
+    "pk": 35,
+    "fields": {
+        "customer": 3,
+        "seller": 4,
+        "interaction_type": "CALL",
+        "notes": "El cliente solicita dossier sobre el catalogo de alarmas",
+        "date": "2026-05-14T21:41:19.185Z",
+        "duration_minutes": 20
+    }
+}
+]
