@@ -142,3 +142,6 @@ MEDIA_URL = "/media/"
 
 LOGIN_REDIRECT_URL = "base:dashboard"
 LOGOUT_REDIRECT_URL = "login"
+
+DEBUG = True
+ALLOWED_HOSTS = ["*"]
