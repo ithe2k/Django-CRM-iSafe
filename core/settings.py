@@ -14,7 +14,13 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG") == "True"
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "[::1]",
+    "django-crm-isafe.onrender.com/",
+    ".onrender.com",
+]
 
 
 # Application definition
