@@ -108,3 +108,9 @@ Para que el sistema de carga múltiple funcione localmente, asegúrate de añadi
 
 ```env
 CLOUDINARY_URL=cloudinary://<tu_api_key>:<tu_api_secret>@<tu_cloud_name>
+
+## 🗄️ Base de Datos en Producción
+
+El entorno de producción de este CRM utiliza una arquitectura de base de datos **PostgreSQL** totalmente gestionada en la nube a través de **Neon** (`neon.tech`), un servicio serverless de alto rendimiento optimizado para aplicaciones modernas. 
+
+La conexión entre el Web Service de Render y la base de datos de Neon se realiza de forma segura mediante credenciales cifradas y exige de forma obligatoria el uso de conexiones protegidas por **SSL** (`sslmode=require`), garantizando la integridad y confidencialidad de todos los datos del CRM (usuarios, clientes e interacciones) en el entorno de despliegue.
