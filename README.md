@@ -21,14 +21,6 @@ Primer proyecto elaborado con Django en periodo formativo.
 
 ---
 
-## 🔑 Credenciales de Acceso y Roles del Sistema (QA / Evaluación)
-
-Para facilitar la auditoría del CRM y permitir la comprobación del sistema de jerarquías, permisos y asignación de clientes, se incluye el archivo de datos simulados 
-
-A continuación se detallan las cuentas preconfiguradas organizadas por su rol dentro de la compañía(`users.json` (*fixture*). ):
-
----
-
 ## 🔑 Credenciales de Acceso y Roles (Evaluación / QA)
 
 Para facilitar la auditoría del CRM y permitir la comprobación de la jerarquía de permisos y la asignación de clientes, se incluye el archivo de datos simulados `users.json` (fixture). 
